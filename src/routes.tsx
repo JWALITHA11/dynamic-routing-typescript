@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 
 const AppRoutes: React.FC = () => (
-  <Router>
+  <Router basename="/dynamic-routing-typescript">
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
@@ -13,4 +13,5 @@ const AppRoutes: React.FC = () => (
 );
 
 export default AppRoutes;
+
 
